@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>F-manager</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./CSS/finance.css">
+    </head>
+    <body>
+    
+        <div class="container">
+
+            <section class="banner">
+                <p>Manage Your Finance</p>
+            </section>
+
+            <nav>
+                <ul>
+                    <li class="ho"><a href="index.html">Home</a></li>
+                    <li class="fi"><a href="finance.html">Manage Your Finance</a></li>
+                    <li class="co"><a href="community.html">Community</a></li>
+                    <li class="acc"><a href="create-account.html">Create account</a></li>
+                </ul>
+                
+            </nav>
+
+            <section action="" class="form-inputs">
+
+                <div class="all-input">
+                    <div class="income-form">
+                        <form action="" class="income-saving">
+                
+                            <label>Monthly Income
+                                <input type="text" id="income">
+                            </label>
+                
+                            <label>Savings
+                                <input type="text" id="savings">
+                            </label>
+                
+                            <button id="income-submit"> Submit</button>          
+                        </form>
+                        
+                    </div>
+                
+                    <div class="expenses">
+                        <form action="" class="all-expenses">
+                
+                            <label class="inline">Expense
+                                <input type="text" id="expense" value="expense">
+                            </label>
+                
+                            <label class="inline">Date
+                                <input type="text" id="date" value="date">
+                            </label>
+                
+                            <label>Amount used
+                                <input type="text" id="amount" value="amount">
+                            </label>
+                
+                            <button id="submit-expense"> Submit</button>
+                            
+                        </form>  
+                    </div>
+                </div>
+                
+    
+                <div class="income-div" id="income-div2">
+                    <h2>Your Monthly Income</h2>
+                    <p id="displayon">
+                        <h1 class="income-figure">20,000 Ksh</h1>
+                    </p>
+                </div>
+    
+                <div class="reports">
+
+                    <div class="report-heading">
+                        <h2>Reports</h2>
+                    </div>
+
+                    <div class="expense-styling">
+                        <div class="expenses expense-divs">
+                            <h2>Your Expenses</h2>
+                            <p id="display-expenses"></p>
+                            <p class="expense-data">
+                                Food - 2/3/2021 - 600 Ksh
+                            </p>
+
+                            <p class="expense-data">
+                                Food - 2/3/2021 - 600 Ksh
+                            </p>
+
+                            <p class="expense-data">
+                                Food - 2/3/2021 - 600 Ksh
+                            </p>
+
+                            <hr>
+
+                            <p class="expense-data">
+                                Total  - 600 Ksh
+                            </p>
+
+        
+                        </div>
+        
+                        <div class="discrete expense-divs" >
+                            <h2>Discrete expense</h2>
+                            <p id="display-discrete"></p>
+        
+                        </div>
+        
+                        <div class="saving expense-divs" >
+                            <h2>Your savings</h2>
+                            <p id="display-savings"></p>
+                            <p class="expense-data">
+                                2/3/2021 - 600 Ksh
+                            </p>
+
+                            <p class="expense-data">
+                                2/3/2021 - 600 Ksh
+                            </p>
+
+                            <p class="expense-data">
+                                2/3/2021 - 600 Ksh
+                            </p>
+
+                            <hr>
+
+                            <p class="expense-data">
+                                Total  - 600 Ksh
+                            </p>
+                        </div>
+                    </div>
+    
+            </section>
+            
+
+            <footer>
+                <div class="footer-divs">
+                    <p>Copyright (c) CodeBreakers</p>
+                </div>
+    
+                    <img class="footer-logo" src="./imagez/finance-manager-logo.png" alt="logo">
+
+    
+                <div class="footer-divs">
+                    <img src="./imagez/facebook.png" alt="facebook">
+                    <img src="./imagez/instagram.png" alt="instagram">
+                    <img src="./imagez/twitter.png" alt="twitter">
+                </div>
+            </footer>
+        </div>
+        
+        
+        
+        <script src="finance.js"></script>
+    </body>
+</html>

@@ -1,18 +1,16 @@
 # F-Manager / A site for Individual finance management
 ## Description
-This is a website that provide a platform for those individual that struggle wish finance management and want to improve on the way they do thins.
-### Prerequisites
-1. Git hub account
-2. Git installed in your machine
+This is a website that provide a platform for those individual who struggle with finance management and want to improve on the way they do things.
+
 ```
 $ sudo apt-get install git-all
 ```
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone `$ git clone https://github.com/kazungu-antony/Finace-magement-site
+1. Use this command to clone `$ https://github.com/EmmilyOdhiambo/Manage-Finance.git
 ```
-$ git clone https://github.com/kazungu-antony/Finace-magement-site
+https://github.com/EmmilyOdhiambo/Manage-Finance.git
 ```
  This will clone the repositoty into your local folder
 ### Features
@@ -31,15 +29,8 @@ $ git clone https://github.com/kazungu-antony/Finace-magement-site
 1. HTML
 1. CSS
 1. Javascript
-1. Git
-
-### Live Site
-View [live](https://kazungu-antony.github.io/Finace-magement-site/)
+2. 
 ## Author
-1. Antony Kazungu
-1. Roney Juma
-1. Ibrahim Kiprotich
-### Licence
-This project is under the  [MIT](LICENSE) licence
-*Copyright (c) 2021 (CodeBreakersInc)*
+1. Emmily Odhiambo
+
 

@@ -2,9 +2,6 @@
 ## Description
 This is a website that provide a platform for those individual who struggle with finance management and want to improve on the way they do things.
 
-```
-$ sudo apt-get install git-all
-```
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
